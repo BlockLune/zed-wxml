@@ -1,0 +1,16 @@
+name = "WeiXin Markup Language"
+grammar = "wxml"
+path_suffixes = ["wxml"]
+autoclose_before = ">})"
+block_comment = { start = "<!--", prefix = "", end = "-->", tab_size = 0 }
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["comment", "text", "raw_text"] },
+    { start = "'", end = "'", close = true, newline = false, not_in = ["comment", "text", "raw_text"] },
+    { start = "<", end = ">", close = true, newline = true, not_in = ["comment", "text", "raw_text"] },
+    { start = "!--", end = "--", close = true, newline = false, not_in = ["comment", "text", "raw_text"] },
+]
+completion_query_characters = ["-", ":"]
+prettier_parser_name = "html"
