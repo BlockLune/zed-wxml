@@ -2,6 +2,10 @@
 
 WXML ([WeiXin Markup Language](https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/)) support for [Zed](https://zed.dev).
 
+## Preview
+
+![Syntax highlighting](./docs/preview.webp)
+
 ## References
 
 - [Developing Extensions | Zed Code Editor Documentation](https://zed.dev/docs/extensions/developing-extensions)
