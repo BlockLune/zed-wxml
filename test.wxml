@@ -21,6 +21,7 @@
 <!-- Model & data -->
 <input model:value="{{inputValue}}" />
 <view data-id="{{item.id}}" data-name="{{item.name}}">Item</view>
+<view style="{{forceWidth ? `width: ${10 - 5}rpx` : ''}}" />
 <text>{{message}}</text>
 
 <!-- Event binding -->

@@ -8,4 +8,4 @@ repository = "https://github.com/BlockLune/zed-wxml"
 
 [grammars.wxml]
 repository = "https://github.com/BlockLune/tree-sitter-wxml"
-rev = "997bd575d9d03669baaf2f097031828c039f43c4"
+rev = "81bd97fa3bbc43516ad0e7ea5518d72651d954bf"
